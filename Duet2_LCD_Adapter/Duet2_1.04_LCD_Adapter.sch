@@ -1,0 +1,188 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J4
+U 1 1 60DB3BBF
+P 3700 1850
+F 0 "J4" H 3750 2267 50  0000 C CNN
+F 1 "EXP_2" H 3750 2176 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 3700 1850 50  0001 C CNN
+F 3 "~" H 3700 1850 50  0001 C CNN
+	1    3700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J3
+U 1 1 60DB4726
+P 3700 2800
+F 0 "J3" H 3750 3217 50  0000 C CNN
+F 1 "EXP_1" H 3750 3126 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 3700 2800 50  0001 C CNN
+F 3 "~" H 3700 2800 50  0001 C CNN
+	1    3700 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 2600 2000 2300
+Wire Wire Line
+	2000 2300 4150 2300
+Wire Wire Line
+	4150 2300 4150 1850
+Wire Wire Line
+	4150 1850 4000 1850
+Wire Wire Line
+	2500 2700 2600 2700
+Wire Wire Line
+	2600 2700 2600 2350
+Wire Wire Line
+	2600 2350 4050 2350
+Wire Wire Line
+	4050 2350 4050 1950
+Wire Wire Line
+	4050 1950 4000 1950
+Wire Wire Line
+	2000 2800 1950 2800
+Wire Wire Line
+	1950 2800 1950 3100
+Wire Wire Line
+	1950 3100 3350 3100
+Wire Wire Line
+	3350 3100 3350 2800
+Wire Wire Line
+	3350 2800 3500 2800
+Wire Wire Line
+	2500 2800 2600 2800
+Wire Wire Line
+	2600 2800 2600 3200
+Wire Wire Line
+	2600 3200 4100 3200
+Wire Wire Line
+	4100 3200 4100 2800
+Wire Wire Line
+	4100 2800 4000 2800
+Wire Wire Line
+	2000 2900 1900 2900
+Wire Wire Line
+	1900 2900 1900 3150
+Wire Wire Line
+	1900 3150 3400 3150
+Wire Wire Line
+	3400 3150 3400 2900
+Wire Wire Line
+	3400 2900 3500 2900
+Wire Wire Line
+	2500 2900 2550 2900
+Wire Wire Line
+	2550 2900 2550 3250
+Wire Wire Line
+	4050 3250 4050 2900
+Wire Wire Line
+	4050 2900 4000 2900
+Wire Wire Line
+	2550 3250 4050 3250
+Wire Wire Line
+	2000 3000 2000 3300
+Wire Wire Line
+	2000 3300 3500 3300
+Wire Wire Line
+	3500 3300 3500 3000
+Wire Wire Line
+	2500 3000 2500 3400
+Wire Wire Line
+	2500 3400 4000 3400
+Wire Wire Line
+	4000 3400 4000 3000
+Wire Wire Line
+	3500 2600 3250 2600
+Wire Wire Line
+	3250 2600 3250 1400
+Wire Wire Line
+	3250 1400 2000 1400
+Wire Wire Line
+	2000 1400 2000 1650
+Wire Wire Line
+	2500 2600 2500 2450
+Wire Wire Line
+	2500 2450 4050 2450
+Wire Wire Line
+	4050 2450 4050 2600
+Wire Wire Line
+	4050 2600 4000 2600
+Wire Wire Line
+	4000 1650 4000 1350
+Wire Wire Line
+	4000 1350 2500 1350
+Wire Wire Line
+	2500 1350 2500 1650
+Wire Wire Line
+	3500 1950 2900 1950
+Wire Wire Line
+	2900 1950 2900 2150
+Wire Wire Line
+	2900 2150 1900 2150
+Wire Wire Line
+	1900 1750 2000 1750
+Wire Wire Line
+	2500 1750 3000 1750
+Wire Wire Line
+	3000 1750 3000 2050
+Wire Wire Line
+	3000 2050 3500 2050
+Wire Wire Line
+	3500 1850 2750 1850
+Wire Wire Line
+	2750 1850 2750 2250
+Wire Wire Line
+	2750 2250 1800 2250
+Wire Wire Line
+	1800 2250 1800 1850
+Wire Wire Line
+	2500 1850 2650 1850
+Wire Wire Line
+	2650 1850 2650 2200
+Wire Wire Line
+	2650 2200 4000 2200
+Wire Wire Line
+	4000 2200 4000 2050
+Text Notes 1850 1300 0    50   ~ 0
+Duet 2 v1.04 to Fysetc Mini 12864 pinout adapter board
+Wire Wire Line
+	1800 1850 2000 1850
+Wire Wire Line
+	1900 2150 1900 1750
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J1
+U 1 1 60DB3321
+P 2200 2800
+F 0 "J1" H 2250 3217 50  0000 C CNN
+F 1 "CONN_LCD" H 2250 3126 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 2200 2800 50  0001 C CNN
+F 3 "~" H 2200 2800 50  0001 C CNN
+	1    2200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J2
+U 1 1 60DB21CD
+P 2200 1850
+F 0 "J2" H 2250 2267 50  0000 C CNN
+F 1 "CONN_SD" H 2250 2176 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 2200 1850 50  0001 C CNN
+F 3 "~" H 2200 1850 50  0001 C CNN
+	1    2200 1850
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
